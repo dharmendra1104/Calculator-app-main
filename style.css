@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(222, 26%, 31%);
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;
+    margin: 0;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin: 4px;
+    font-size: 16px;
+}
+
+.container{
+    margin-top: 7rem;
+    display: grid;
+    padding: 10px;
+    background-color: white;
+    grid: auto 80px;
+    grid-gap: 15px;
+    justify-content: center;
+}
+.section{
+    text-align: center;
+    width: 20rem;
+    background-color:beige;
+    border-radius: 4px;
+}
+.section-1{
+    height: 5.1rem;
+}
+.section-1 input{
+    height: 5.1rem;
+    width: 20rem;
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    background-color: hsl(223, 31%, 20%);
+    padding: 18px;
+    text-align: end;
+}
+.section-2{
+    height: 17rem;
+    background-color:  hsl(224, 29%, 27%);
+    padding-top: 11px;
+}
+.row{
+    margin-top: 5px;
+}
+.row button{
+    width: 60px;
+    margin: 4px;
+    padding: 7px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.row-2 button{
+    width: 8.2rem;
+}
+#delete,#reset{
+    background-color: hsl(225, 21%, 49%);
+    color: white;
+}
+#answer{
+    background-color: hsl(6, 63%, 50%);
+    color: white;
+}
