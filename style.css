@@ -17,14 +17,25 @@
     display: flex;
     justify-content: space-between;
     margin: 4px;
-    font-size: 16px;
+}
+.title h5{
+    font-size: 18px;
+    color: white;
 }
 
+.icon{
+    display: flex;
+}
+.icon p{
+    margin-top: 4px;
+    color: white;
+    font-size: 11px;
+}
 .container{
     margin-top: 7rem;
     display: grid;
     padding: 10px;
-    background-color: white;
+    background-color: hsl(222, 26%, 31%);;
     grid: auto 80px;
     grid-gap: 15px;
     justify-content: center;
@@ -41,7 +52,8 @@
 .section-1 input{
     height: 5.1rem;
     width: 20rem;
-    border-radius: 5px;
+    border: none;
+    border-radius: 3px;
     color: white;
     font-size: 30px;
     background-color: hsl(223, 31%, 20%);

@@ -7,9 +7,9 @@ window.addEventListener('DOMContentLoaded', function() {
         button.addEventListener('click', function() {
             const buttonText = button.textContent;
  
-            if (buttonText === 'C') {
+            if (buttonText === 'RESET') {
                 input.value = '';
-            } else if (buttonText === 'D') {
+            } else if (buttonText === 'DEL') {
                 input.value = input.value.slice(0, -1);
             } else if (buttonText === '=') {
                 try {
