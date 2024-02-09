@@ -52,6 +52,7 @@ window.addEventListener('DOMContentLoaded', function() {
     const section1 = document.querySelector('.section-1');
     const section2 = document.querySelector('.section-2');
     const body = document.body;
+    const inputText = document.querySelector('.input');
 
     numbers.forEach(number => {
         number.addEventListener('click', function () {
@@ -66,6 +67,8 @@ window.addEventListener('DOMContentLoaded', function() {
                 section2.style.backgroundColor = "hsl(224, 29%, 27%)"; // Change section-2 background color
                 container.style.backgroundColor = "hsl(222, 26%, 31%)"; // Change container background color
                 body.style.backgroundColor = " hsl(222, 26%, 31%)"; // Change body background color
+                inputText.style.color = "white";
+                inputText.style.backgroundColor = "hsl(223, 31%, 20%)";
             } else if (clickedNumber === 2) {
                 circle.style.marginLeft = "16px";
                 circle.style.backgroundColor = "red";
@@ -73,6 +76,9 @@ window.addEventListener('DOMContentLoaded', function() {
                 section2.style.backgroundColor = "hsl(0, 5%, 81%)"; // Change section-2 background color
                 container.style.backgroundColor = "hsl(0, 0%, 90%)"; // Change container background color
                 body.style.backgroundColor = "hsl(0, 0%, 90%)"; // Change body background color
+                inputText.style.color = "black";
+                inputText.style.backgroundColor = "hsl(0, 0%, 95%)";
+                tittle.style.color="black";
             } else if (clickedNumber === 3) {
                 circle.style.marginLeft = "30px";
                 circle.style.backgroundColor = "red";
@@ -80,6 +86,8 @@ window.addEventListener('DOMContentLoaded', function() {
                 section2.style.backgroundColor = "hsl(268, 47%, 21%)"; // Change section-2 background color
                 container.style.backgroundColor = "hsl(268, 75%, 9%)"; // Change container background color
                 body.style.backgroundColor = "hsl(268, 75%, 9%)"; // Change body background color
+                inputText.style.color = "yellow";
+                inputText.style.backgroundColor = "hsl(268, 47%, 21%)";
             }
         });
     });
