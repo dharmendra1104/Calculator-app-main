@@ -26,16 +26,49 @@
 .icon{
     display: flex;
 }
+
 .icon p{
     margin-top: 4px;
     color: white;
     font-size: 11px;
+     /* margin-right: ; */
+}
+
+.toggle{
+    color: white;
+    padding: px;
+}
+
+.right {
+    display: flex;
+    padding-right: px;
+}
+
+.right p{
+    padding: 5px;
+    font-size: 12px;
+}
+
+.box{
+    height: 14px;
+    width: 48px;
+    border-radius: 5px;
+    background-color: hsl(223, 31%, 20%);
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#circle{
+    height: 13px;
+    width: 12px;
+    border-radius: 5px;
+    background-color: red;
 }
 .container{
     margin-top: 7rem;
     display: grid;
     padding: 10px;
-    background-color: hsl(222, 26%, 31%);;
+    background-color: hsl(222, 26%, 31%);
     grid: auto 80px;
     grid-gap: 15px;
     justify-content: center;
@@ -87,3 +120,21 @@
     background-color: hsl(6, 63%, 50%);
     color: white;
 }
+
+
+.one {
+    cursor: pointer;
+  }
+  
+  .selected {
+    color: white;
+    background-color: #fafafa00; /* Set your desired color */
+  }
+  
+
+
+
+
+
+
+
