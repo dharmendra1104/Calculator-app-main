@@ -65,7 +65,6 @@
     background-color: red;
 }
 .container{
-    margin-top: 7rem;
     display: grid;
     padding: 10px;
     background-color: hsl(222, 26%, 31%);
@@ -77,7 +76,7 @@
     text-align: center;
     width: 20rem;
     background-color:beige;
-    border-radius: 4px;
+    border-radius: 7px;
 }
 .section-1{
     height: 5.1rem;
@@ -86,7 +85,7 @@
     height: 5.1rem;
     width: 20rem;
     border: none;
-    border-radius: 3px;
+    border-radius: 6px;
     color: white;
     font-size: 30px;
     background-color: hsl(223, 31%, 20%);
